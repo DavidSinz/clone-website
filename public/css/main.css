@@ -6,12 +6,6 @@
   box-sizing: border-box;
 }
 
-p {
-  font-size: 1.3em;
-  font-weight: 700;
-  transform: scaleY(0.95);
-}
-
 body {
   font-family: "Amazon Ember";
   margin-left: auto;
@@ -34,8 +28,148 @@ main {
   height: 100vh;
 }
 
+main p {
+  font-size: 1.3em;
+  font-weight: 700;
+  transform: scaleY(0.95);
+}
+
 button {
   cursor: pointer;
+}
+
+.menu nav {
+  background-color: #131921;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  font-size: 0.8em;
+}
+
+.menu nav div {
+  display: flex;
+  align-items: stretch;
+}
+
+.menu nav > div {
+  padding: 0 18px;
+}
+
+.menu-text {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+}
+
+.menu-text > div:first-child {
+  font-size: 00.9em;
+}
+
+#logo img {
+  height: 40px;
+}
+
+#logo div {
+  margin-top: 8px;
+}
+
+#select-address img {
+  margin-top: 10px;
+  margin-right: 3px;
+  height: 20px;
+}
+
+#search-bar {
+  padding: 10px;
+  height: 100%;
+  color: #000;
+  flex-grow: 2;
+}
+
+#search-bar input {
+  border: none;
+  width: 100%;
+}
+
+#search-bar div.search-btn {
+  align-items: center;
+  padding: 20px;
+}
+
+#search-bar div.left-btn {
+  background-color: #f3f3f3;
+  border-radius: 5px 0 0 5px;
+}
+
+#search-bar div.left-btn i {
+  margin-left: 4px;
+}
+
+#search-bar div.right-btn {
+  background-color: #febd69;
+  border-radius: 0 5px 5px 0;
+  font-size: 1.7em;
+}
+
+#select-country img {
+  height: 18px;
+}
+
+#select-country i {
+  font-size: 0.8em;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+#sign-in-menu i {
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+#shopping-cart {
+  background-image: url("../assets/img/cart.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+
+#shopping-cart > div:first-child {
+  margin-left: 2px;
+}
+
+#shopping-cart > div:last-child {
+  margin-left: 22px;
+}
+
+.main-nav {
+  background-color: #232f3e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  padding: 3px 18px;
+  height: 40px;
+}
+
+.main-nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav a i {
+  margin: 0 6px;
+}
+
+.main-nav p {
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
 }
 
 .img-carousel {
@@ -66,6 +200,8 @@ button {
   max-width: 100%;
   margin-bottom: 10px;
   flex: 1 1 auto;
+  object-fit: cover;
+  object-position: center;
 }
 
 .card a {
@@ -185,4 +321,26 @@ button {
 .multi-imgs div.multi-img-info {
   font-size: 0.75em;
   margin: 0 0 20px 0;
+}
+
+.donate-section {
+  background-color: #37475a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+}
+
+.donate-section img {
+  padding: 10px;
+  height: 40px;
+}
+
+.text-grey {
+  color: #ccc;
+}
+
+.text-orange {
+  color: #f07815;
 }
