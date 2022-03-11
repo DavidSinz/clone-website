@@ -1,43 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Amazon Clone</title>
+    <link href="./css/main.css" rel="stylesheet" />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <header></header>
+    <main>
+      <div class="img-carousel"></div>
+      <div class="card-section">
+        <div class="card">
+          <p>Helfen Sie Betroffenen des Ukraine-Krieges</p>
+          <img src="./assets/img/card-img-0.jpg" alt="card image" />
+          <a href="#">Jetzt spenden</a>
+        </div>
+        <div class="card">
+          <p>Playlist-Tipp: Taufrisch</p>
+          <img src="./assets/img/card-img-1.jpg" alt="card image" />
+          <a href="#">Jetzt streamen</a>
+        </div>
+        <div class="card">
+          <p>Stromae - Neues Album</p>
+          <img src="./assets/img/card-img-2.jpg" alt="card image" />
+          <a href="#">Jetzt streamen</a>
+        </div>
+        <div class="double-card">
+          <div class="register-card">
+            <p>Zum Einkaufen bitte anmelden</p>
+            <button class="register-btn">Sichere Anmeldung</button>
+          </div>
+          <div class="sponsor-card">
+            <img src="./assets/img/sponsor-img.jpg" alt="sponsor-img" />
+            <div>Holabuy Cat 8 Ethernet-Kabel, 20M Giga...</div>
+            <div class="sponsor-info">
+              <div>
+                <div>
+                  32,99 € <span class="sponsor-price-info">inkl. Mwst.</span>
+                </div>
+                <div>
+                  <img class="prime-img" src="./assets/img/prime.png" />
+                </div>
+              </div>
+              <div class="sponsor-btn"><button>Jetzt kaufen</button></div>
+            </div>
+          </div>
+          <div class="sponsor-label">Gesponsert</div>
+        </div>
+        <div class="card">
+          <p>Kleine Unternehmen kennenlernen</p>
+          <img src="./assets/img/card-img-3.jpg" alt="card image" />
+          <a href="#">Bitter Liebe entdecken</a>
+        </div>
+        <div class="card">
+          <p>Amazon Geräte für weniger als 80 €</p>
+          <div class="multi-imgs">
+            <div>
+              <img src="./assets/img/card-img-4.jpg" />
+              <div class="multi-img-info">Kindle</div>
+            </div>
+            <div>
+              <img src="./assets/img/card-img-5.jpg" />
+              <div class="multi-img-info">Fire TV Stick</div>
+            </div>
+            <div>
+              <img src="./assets/img/card-img-6.jpg" />
+              <div class="multi-img-info">Fire 7-Tablet</div>
+            </div>
+            <div>
+              <img src="./assets/img/card-img-7.jpg" />
+              <div class="multi-img-info">Ring Video Doorbell Wired</div>
+            </div>
+          </div>
+          <a href="#">Jetzt entdecken</a>
+        </div>
+        <div class="card">
+          <p>Amazon Geräte</p>
+          <div class="multi-imgs">
+            <div>
+              <img src="./assets/img/card-img-8.jpg" />
+              <div class="multi-img-info">Fire TV Stick Lite</div>
+            </div>
+            <div>
+              <img src="./assets/img/card-img-9.jpg" />
+              <div class="multi-img-info">Echo Studio</div>
+            </div>
+            <div>
+              <img src="./assets/img/card-img-10.jpg" />
+              <div class="multi-img-info">Echo Show 5</div>
+            </div>
+            <div>
+              <img src="./assets/img/card-img-11.jpg" />
+              <div class="multi-img-info">Kindle Paperwhite</div>
+            </div>
+          </div>
+          <a href="#">Mehr erfahren</a>
+        </div>
+        <div class="card">
+          <p>Gratis-Lieferung für Ihre erste Bestellung</p>
+          <img src="./assets/img/card-img-12.jpg" alt="card image" />
+          <a href="#">Mehr erfahren</a>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

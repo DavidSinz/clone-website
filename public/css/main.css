@@ -1,0 +1,188 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: 700;
+  transform: scaleY(0.95);
+}
+
+body {
+  font-family: "Amazon Ember";
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+}
+
+main {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0) 300px,
+      rgba(234, 237, 237, 1) 500px
+    ),
+    url("../assets/img/header.jpg");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+.img-carousel {
+  height: 250px;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 9px;
+}
+
+.card {
+  flex: 1 0 calc(25% - 18px);
+  background-color: #fff;
+  padding: 18px;
+  margin: 0 9px 18px 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card p {
+  margin-bottom: 12px;
+  flex: 0 1 auto;
+}
+
+.card img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  flex: 1 1 auto;
+}
+
+.card a {
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+  color: #5ea5b2;
+  flex: 0 1 auto;
+}
+
+.double-card {
+  flex: 1 0 calc(25% - 18px);
+  margin: 0 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-card {
+  background-color: #fff;
+  padding: 18px;
+  margin-bottom: 18px;
+  flex-grow: 1;
+}
+
+.register-card p {
+  margin-bottom: 18px;
+}
+
+.register-btn {
+  font-family: "Amazon Ember";
+  background-color: #ffd814;
+  border: 1px solid #ffd814;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  width: 100%;
+  padding: 6px;
+}
+
+.sponsor-card {
+  background-color: #fff;
+  font-size: 0.9em;
+  margin: auto;
+  padding: 0 9px 15px 9px;
+  width: 85%;
+  border: 1px solid #ddd;
+}
+
+.sponsor-card img {
+  display: block;
+  margin: auto;
+  width: 55%;
+}
+
+.sponsor-card img.prime-img {
+  margin: 5px auto 0 0;
+  width: 45px;
+}
+
+.sponsor-price-info {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.sponsor-card button {
+  background: linear-gradient(rgb(254, 222, 151), rgb(236, 178, 31))
+    rgb(254, 222, 151);
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(169, 133, 39) rgb(145, 114, 33) rgb(134, 105, 31);
+  border-radius: 3px;
+  height: 24px;
+  padding: 0px 10px 0px 11px;
+  width: 109px;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.sponsor-btn {
+  margin-top: auto;
+}
+
+.sponsor-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sponsor-label {
+  margin: auto;
+  width: 85%;
+  height: 18px;
+  font-size: 0.7em;
+  color: #888;
+  text-align: right;
+}
+
+.multi-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+
+.multi-imgs div {
+  flex: 1 0 calc(50% - 18px);
+}
+
+.multi-imgs div:nth-child(even) {
+  margin-left: 18px;
+}
+
+.multi-imgs img {
+  margin-bottom: 0;
+}
+
+.multi-imgs div.multi-img-info {
+  font-size: 0.75em;
+  margin: 0 0 20px 0;
+}
